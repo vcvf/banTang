@@ -1,0 +1,59 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.0)
+  - PullToRefreshCoreText (0.2)
+  - SDCycleScrollView (1.61):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - YYCache (1.0)
+  - YYImage (1.0):
+    - YYImage/Core (= 1.0)
+  - YYImage/Core (1.0)
+  - YYWebImage (1.0):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - Masonry (~> 0.6.4)
+  - MBProgressHUD (~> 0.9.2)
+  - MJRefresh (~> 3.1.0)
+  - PullToRefreshCoreText (~> 0.2)
+  - SDCycleScrollView (~> 1.61)
+  - SDWebImage (~> 3.7.5)
+  - UITableView+FDTemplateLayoutCell (~> 1.4)
+  - YYWebImage (~> 1.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  PullToRefreshCoreText: c843e71fc5ae5b033c0281067368905efd05c7b2
+  SDCycleScrollView: a002d85b30cfa9d0ac74069cd3973ca19ff4f22f
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  YYCache: 671da5662bbd0165f144bfab1c2ba9d9548200d3
+  YYImage: 11b1cad71b00a06c216c120e842c22f930449ee8
+  YYWebImage: 61497d881d103dd4ec36fdbbe019f952edbfcc4d
+
+COCOAPODS: 0.39.0

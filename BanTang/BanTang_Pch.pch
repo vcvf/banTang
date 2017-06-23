@@ -1,0 +1,50 @@
+//
+//  BanTang_Pch.pch
+//  BanTang
+//
+//  Created by guanli on 16/3/22.
+//  Copyright © 2016年 CaoFei. All rights reserved.
+//
+
+#ifndef BanTang_Pch_pch
+#define BanTang_Pch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "NSObject+NSObjectExtension.h"
+#import "MyLog.h"
+#import "BlockCycle.h"
+#import "UITableView+Regist.h"
+#import "UIColor+Hexadecimal.h"
+#import "UICollectionView+ARDynamicCacheHeightLayoutCell.h"
+#import "BTDIYHeader.h"
+#import "BTDIYFooter.h"
+#import "BTURLParameterManager.h"
+#import "UIImage+Extension.h"
+#import "MBProgressHUD+ZY.h"
+
+#import <MBProgressHUD.h>
+#import <Masonry.h>
+#import <AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import <UIImageView+YYWebImage.h>
+#import <UIButton+YYWebImage.h>
+#import <YYWebImageManager.h>
+#import <MJRefresh.h>
+#import <UITableView+FDTemplateLayoutCell.h>
+#import <SDCycleScrollView.h>
+#import <UIScrollView+PullToRefreshCoreText.h>
+
+#define ScreenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
+#define ScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
+#define TabBarHeight 49
+#define NavBarHeight 64
+
+#define TopicColor [UIColor colorWithHexString:@"#fd6363"]
+#define BackgroundColor [UIColor colorWithHexString:@"#f4f4f4"]
+#define ItemBackgroundColor [UIColor colorWithHexString:@"#e6e6e6"]
+#define TitleLightColor [UIColor colorWithHexString:@"#999999"]
+#define TitleDarkColor [UIColor colorWithHexString:@"#6c6c6c"]
+
+#endif /* BanTang_Pch_pch */
